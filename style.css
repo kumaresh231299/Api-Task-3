@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.heading{
+    color: red ;
+    text-shadow: 5px 2px aqua;
+}
+
+.heading {
+  margin: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cityFinder {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.container {
+  padding-bottom: 20px;
+}
+
+.cityContainer {
+  margin-top: 20px;
+  display: none;
+}
+
+.row{
+    font-family: monospace;
+}
+.card-body{
+    font-weight: bolder;
+}

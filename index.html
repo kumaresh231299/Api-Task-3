@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Details</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Title icon -->
+    <link rel="icon" type="image/x-icon"
+        href="data:image/png;base64,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">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="cityFinder">
+        <section class="container">
+            <h1 class="heading">City Details Finder</h1>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control locationFinding" name="locationFinding"
+                    placeholder="Enter city name" aria-label="Enter city name" aria-describedby="button-addon2">
+                <button class="btn btn-primary " type="button" id="button-addon2"
+                    onclick="handleSubmit()">Button</button>
+            </div>
+        </section>
+
+        <!-- Display the City Details -->
+        <section class="content">
+            <div class="cityContainer">
+                <div class="row justify-content-center ">
+                    <div class="col-sm-6 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Here See the city all Details</h5>
+                                <p class="card-text city"></p>
+                                <p class="card-text state"></p>
+                                <p class="card-text country"></p>
+                                <p class="card-text region"></p>
+                                <p class="card-text lat"></p>
+                                <p class="card-text long"></p>
+                                <p class="card-text timeZone"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </div>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
